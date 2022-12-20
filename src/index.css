@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.NavBar{
+  background-color: tan;
+  display: flex;
+  word-spacing: 100px;
+  padding: 5px;
+  
+}
+.NavBar a{
+  margin-right: 10px;
+  
 }
