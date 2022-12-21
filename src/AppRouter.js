@@ -3,7 +3,8 @@ import { BrowserRouter,Routes, Route} from "react-router-dom"
 
 import HomePage from './Homepage'
 import Crypto from './Crypto'
-import App from './App'
+import Calculator from './calculator'
+
 
 function AppRouter(){
     return(
@@ -15,6 +16,10 @@ function AppRouter(){
 
                 <Route path="/Crypto" element={
                     <Crypto />
+                } />
+
+                <Route path="/calculator" element={
+                    <Calculator />
                 } />
             </Routes>
         </BrowserRouter>
